@@ -24,6 +24,11 @@ This lab demonstrates key **SOC Analyst** skills:
 ## 🏗️ Architecture
 Below is a simplified view of the environment used in this project:
 
+<p align="center">
+  <b>Architecture Diagram</b><br>
+  <img src="https://github.com/Dayvison07/azure-sentinel-honeypot/blob/46506147a74912822163de3bd8c158f528b1af3d/Architecture.png" width="600"/>
+</p>
+
 
 
 
@@ -72,13 +77,12 @@ WindowsEvents
  |project TimeGenerated,Computer, AttackerIp = IpAddress, cityname, countryname, latitude, longitude
 ```
 
-## 📸 Screenshots
+## 📸 Map Visualisation
 
-| Step | Description                     | Screenshot                   |
-| ---- | ------------------------------- | ---------------------------- |
-| 1    | Failed logins in Event Viewer   | *()* |
-| 2    | Logs in Log Analytics Workspace | *()* |
-| 3    | Attack Map Dashboard            | *()* |
+<p align="center">
+  <b>Attack Map Dashboard in Azure Sentinel</b><br>
+  <img src="https://github.com/Dayvison07/azure-sentinel-honeypot/blob/c4f67d68b010da55033524a78fd5156c65eeb0e7/map.png" width="650"/>
+</p>
 
 ## 🧠 Lessons Learned
 
