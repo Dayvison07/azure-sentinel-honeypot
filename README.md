@@ -17,7 +17,7 @@ This lab demonstrates key **SOC Analyst** skills:
 - KQL (Kusto Query Language)  
 - GeoIP Database (for location enrichment)  
 - Windows Event Viewer  
-- PowerShell / Azure Portal  
+- Azure Portal  
 
 ---
 
